@@ -58,7 +58,7 @@ header ul li a:hover {
         rgba(0, 0, 0, 0.45)
     ),
 
-url(/images/carpet.jpeg)
+url(images/carpet.jpeg)
     center/cover no-repeat;
 
     display: flex;
