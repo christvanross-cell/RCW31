@@ -53,13 +53,16 @@ header ul li a:hover {
 /* Hero Section */
 .hero {
     height: 80vh;
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.45),
-        rgba(0, 0, 0, 0.45)
-    ),
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+        ),
+        url('./images/carpet.jpeg');
 
-url(/images/carpet.jpeg)
-    center/cover no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     display: flex;
     justify-content: center;
